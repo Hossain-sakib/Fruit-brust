@@ -54,7 +54,7 @@
     <!-- header section -->
     <header class="px-6 mb-8 lg:px-32 lg:mt-8  lg:mb-40">
         <!-- nav -->
-        <div class="flex justify-between items-center lg:mb-14 lg:bg-[#F85559] rounded-full lg:px-12 py-4">
+        <nav class="flex justify-between items-center lg:mb-14 lg:bg-[#F85559] rounded-full lg:px-12 py-4">
             <div class=" hidden lg:flex">
                 <ul class="menu menu-horizontal text-white px-1">
                     <li><a>Home</a></li>
@@ -63,12 +63,13 @@
                     <li><a>All Fruits</a></li>
                 </ul>
             </div>
-            <div class="flex items-center flex-row">
-                <div class="flex gap-3 items-center">
-                    <img src="./images/logo.png" alt="">
-                    <a class="lg:text-white text-4xl font-bold">Fruit Burst</a>
-                </div>
-                <div class="dropdown">
+            <div class="flex gap-3 items-center ">
+                <img src="./images/logo.png" alt="">
+                <a class="lg:text-white text-4xl font-bold">Fruit Burst</a>
+            </div>
+            <!-- dropdown menu -->
+            <div class="flex items-start flex-row">
+                <div class="dropdown dropdown-left">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -85,12 +86,14 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- search box -->
             <div class="hidden lg:block items-center">
                 <input class="relative w-[300px] rounded-full text-xs py-3 px-6" type="search"
                     placeholder="Search here">
                 <i class="absolute -ml-8 mt-3 fa-solid fa-magnifying-glass"></i>
             </div>
-        </div>
+        </nav>
         <!-- banner section -->
         <div class="flex flex-col lg:flex-col items-center">
             <!-- carousel -->
@@ -394,7 +397,8 @@
                 </p>
             </div>
             <!-- features -->
-            <div class="flex flex-col lg:flex-row md:flex-row justify-center items-center space-y-4 lg:gap-x-16 md:gap-x-16">
+            <div
+                class="flex flex-col lg:flex-row md:flex-row justify-center items-center space-y-4 lg:gap-x-16 md:gap-x-16">
                 <!-- features img -->
                 <div class="lg:hidden md:hidden">
                     <img src="./images/whychoose1.png" alt="">
@@ -406,7 +410,8 @@
                         <div class="flex justify-center items-center w-16 h-16 rounded-full bg-[#12121219]">
                             <img class="w-6 h-6 rounded-full" src="./images/social icons/group 1.png" alt="">
                         </div>
-                        <div class="w-64 flex flex-col items-center lg:items-start md:items-start space-y-4 lg:text-left md:text-left">
+                        <div
+                            class="w-64 flex flex-col items-center lg:items-start md:items-start space-y-4 lg:text-left md:text-left">
                             <h2 class="text-base font-bold">Dedicated Team</h2>
                             <div class="w-24 border-t border-solid border-black"></div>
                             <p class="text-xs font-bold text-[#7e7171]">Professional employees are there for you to pick
@@ -419,7 +424,8 @@
                         <div class="flex justify-center items-center w-16 h-16 rounded-full bg-[#12121219]">
                             <img class="w-6 h-6 rounded-full" src="./images/social icons/love 1.png" alt="">
                         </div>
-                        <div class="w-64 flex flex-col items-center lg:items-start md:items-start space-y-4 lg:text-left md:text-left">
+                        <div
+                            class="w-64 flex flex-col items-center lg:items-start md:items-start space-y-4 lg:text-left md:text-left">
                             <h2 class="text-base font-bold">Fresh is Best</h2>
                             <div class="w-24 border-t border-solid border-black"></div>
                             <p class="text-xs font-bold text-[#7e7171]">Professional employees are there for you to pick
@@ -432,7 +438,8 @@
                         <div class="flex justify-center items-center w-16 h-16 rounded-full bg-[#12121219]">
                             <img class="w-6 h-6 rounded-full" src="./images/social icons/gift-box 1.png" alt="">
                         </div>
-                        <div class="w-64 flex flex-col items-center lg:items-start md:items-start space-y-4 lg:text-left md:text-left">
+                        <div
+                            class="w-64 flex flex-col items-center lg:items-start md:items-start space-y-4 lg:text-left md:text-left">
                             <h2 class="text-base font-bold">Gift Certificates</h2>
                             <div class="w-24 border-t border-solid border-black"></div>
                             <p class="text-xs font-bold text-[#7e7171]">Professional employees are there for you to pick
@@ -448,11 +455,13 @@
                 <!-- features part 2 -->
                 <div>
                     <!-- feature 4 -->
-                    <div class=" gap-6 flex flex-col lg:flex-row-reverse md:flex-row-reverse  items-center text-center space-y-2 mt-6">
+                    <div
+                        class=" gap-6 flex flex-col lg:flex-row-reverse md:flex-row-reverse  items-center text-center space-y-2 mt-6">
                         <div class="flex justify-center items-center w-16 h-16 rounded-full bg-[#12121219]">
                             <img class="w-6 h-6 rounded-full" src="./images/social icons/fruit 1.png" alt="">
                         </div>
-                        <div class="w-64 flex flex-col items-center lg:items-end md:items-end space-y-4 lg:text-right md:text-right">
+                        <div
+                            class="w-64 flex flex-col items-center lg:items-end md:items-end space-y-4 lg:text-right md:text-right">
                             <h2 class="text-base font-bold">Integrated Supplier</h2>
                             <div class="w-24 border-t border-solid border-black"></div>
                             <p class="text-xs font-bold text-[#7e7171]">Professional employees are there for you to pick
@@ -461,11 +470,13 @@
                         </div>
                     </div>
                     <!-- feature 5 -->
-                    <div class=" gap-6 flex flex-col lg:flex-row-reverse md:flex-row-reverse items-center text-center space-y-2 mt-6">
+                    <div
+                        class=" gap-6 flex flex-col lg:flex-row-reverse md:flex-row-reverse items-center text-center space-y-2 mt-6">
                         <div class="flex justify-center items-center w-16 h-16 rounded-full bg-[#12121219]">
                             <img class="w-6 h-6 rounded-full" src="./images/social icons/ice-cream 1.png" alt="">
                         </div>
-                        <div class="w-64 flex flex-col items-center lg:items-end md:items-end space-y-4 lg:text-right md:text-right">
+                        <div
+                            class="w-64 flex flex-col items-center lg:items-end md:items-end space-y-4 lg:text-right md:text-right">
                             <h2 class="text-base font-bold">Substainable practice</h2>
                             <div class="w-24  border-t border-solid border-black"></div>
                             <p class="text-xs font-bold text-[#7e7171]">Professional employees are there for you to pick
@@ -474,11 +485,13 @@
                         </div>
                     </div>
                     <!-- feature 6 -->
-                    <div class=" gap-6 flex flex-col lg:flex-row-reverse md:flex-row-reverse items-center text-center space-y-2 mt-6">
+                    <div
+                        class=" gap-6 flex flex-col lg:flex-row-reverse md:flex-row-reverse items-center text-center space-y-2 mt-6">
                         <div class="flex justify-center items-center w-16 h-16 rounded-full bg-[#12121219]">
                             <img class="w-6 h-6 rounded-full" src="./images/social icons/like 1.png" alt="">
                         </div>
-                        <div class="w-64 flex flex-col items-center lg:items-end md:items-end space-y-4 lg:text-right md:text-right">
+                        <div
+                            class="w-64 flex flex-col items-center lg:items-end md:items-end space-y-4 lg:text-right md:text-right">
                             <h2 class="text-base font-bold">The Benefits only</h2>
                             <div class="w-24 border-t border-solid border-black"></div>
                             <p class="text-xs font-bold text-[#7e7171]">Professional employees are there for you to pick
@@ -489,12 +502,30 @@
                 </div>
             </div>
         </section>
-
-
     </main>
 
-    <footer>
+    <footer class="footer footer-center p-10 bg-[#121212]">
+        <div class="flex gap-3 items-center">
+            <img src="./images/logo.png" alt="">
+            <a class="lg:text-white text-4xl font-bold">Fruit Burst</a>
+        </div>
+        <div class="flex items-center justify-center gap-16  flex-wrap text-white px-1">
+            <a>Home</a>
+            <a>About Us</a>
+            <a>Shop</a>
+            <a>All Fruits</a>
+            <a>Support</a>
+            <a>My Account</a>
+        </div>
+        <div class="flex items-center justify-center gap-14 text-white px-1">
+            <a href=""><img src="./images/social icons/twitter 2.png" alt=""></a>
+            <a href=""><img src="./images/social icons/facebook 2.png" alt=""></a>
+            <a href=""><img src="./images/social icons/Group 49.png" alt=""></a>
+            <a href=""><img src="./images/social icons/linkedin 2.png" alt=""></a>
+            <a href=""><img src="./images/social icons/instagram 2.png" alt=""></a>
+            <a href=""><img src="./images/social icons/apple 2.png" alt=""></a>
 
+        </div>
     </footer>
 </body>
 
